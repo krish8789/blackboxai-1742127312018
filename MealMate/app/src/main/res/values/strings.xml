@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">MealMate</string>
+
+    <!-- Authentication -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="text_no_account">Don\'t have an account? Register</string>
+    <string name="text_have_account">Already have an account? Login</string>
+
+    <!-- Navigation -->
+    <string name="nav_meals">Meals</string>
+    <string name="nav_shopping">Shopping List</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Meals -->
+    <string name="title_meals">My Recipes</string>
+    <string name="title_create_meal">Create New Recipe</string>
+    <string name="hint_recipe_name">Recipe Name</string>
+    <string name="hint_ingredients">Ingredients</string>
+    <string name="hint_instructions">Cooking Instructions</string>
+    <string name="btn_add_ingredient">Add Ingredient</string>
+    <string name="btn_add_photo">Add Photo</string>
+    <string name="btn_save_recipe">Save Recipe</string>
+    <string name="text_no_recipes">No recipes yet.\nTap + to add a new recipe!</string>
+    <string name="text_view_recipe">View Recipe</string>
+    <string name="text_add_to_shopping">Add to Shopping List</string>
+
+    <!-- Shopping List -->
+    <string name="title_shopping_list">Shopping List</string>
+    <string name="text_no_shopping_items">No items in your shopping list</string>
+    <string name="text_items_in_list">%1$d items in your list</string>
+    <string name="text_items_purchased">%1$d items purchased</string>
+    <string name="btn_delegate_shopping">Delegate Shopping</string>
+    <string name="text_shopping_list_header">Shopping List:</string>
+    <string name="text_for_recipe">For: %1$s</string>
+
+    <!-- Profile -->
+    <string name="title_profile">Profile</string>
+    <string name="title_profile_info">Profile Information</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="btn_update_profile">Update Profile</string>
+    <string name="btn_logout">Logout</string>
+    <string name="text_total_recipes">Total Recipes: %1$d</string>
+    <string name="text_total_ingredients">Total Ingredients: %1$d</string>
+    <string name="text_completed_shopping">Items Purchased: %1$d</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_empty_fields">This field cannot be empty</string>
+    <string name="error_empty_name">Name cannot be empty</string>
+    <string name="error_empty_recipe_name">Recipe name is required</string>
+    <string name="error_empty_instructions">Instructions are required</string>
+    <string name="error_empty_ingredients">Please fill all ingredient details</string>
+    <string name="error_sms_permission">SMS permission is required to delegate shopping</string>
+    <string name="error_sms_permission_rationale">SMS permission is needed to delegate shopping</string>
+    <string name="error_loading_profile">Error loading profile: %1$s</string>
+    <string name="error_updating_profile">Error updating profile: %1$s</string>
+    <string name="error_loading_recipes">Error loading recipes: %1$s</string>
+    <string name="error_saving_recipe">Error saving recipe: %1$s</string>
+    <string name="error_loading_shopping">Error loading shopping list: %1$s</string>
+    <string name="error_updating_ingredient">Error updating ingredient: %1$s</string>
+    <string name="error_opening_sms">Error opening SMS app: %1$s</string>
+
+    <!-- Success Messages -->
+    <string name="success_profile_updated">Profile updated successfully</string>
+    <string name="success_recipe_saved">Recipe saved successfully</string>
+
+    <!-- Buttons -->
+    <string name="btn_grant">Grant</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>
