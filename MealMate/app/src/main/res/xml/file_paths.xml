@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="recipe_images"
+        path="recipe_images/" />
+    <cache-path
+        name="temp_images"
+        path="temp_images/" />
+    <external-files-path
+        name="external_files"
+        path="Pictures/" />
+    <external-cache-path
+        name="external_cache"
+        path="." />
+</paths>
