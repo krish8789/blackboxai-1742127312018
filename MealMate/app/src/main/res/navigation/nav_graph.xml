@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_meals">
+
+    <fragment
+        android:id="@+id/navigation_meals"
+        android:name="com.mealmate.app.ui.meals.MealsFragment"
+        android:label="Meals">
+        <action
+            android:id="@+id/action_meals_to_create_meal"
+            app:destination="@id/navigation_create_meal" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_shopping"
+        android:name="com.mealmate.app.ui.shopping.ShoppingListFragment"
+        android:label="Shopping List">
+        <action
+            android:id="@+id/action_shopping_to_delegate"
+            app:destination="@id/navigation_delegate_shopping" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.mealmate.app.ui.profile.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/navigation_create_meal"
+        android:name="com.mealmate.app.ui.meals.CreateMealFragment"
+        android:label="Create Meal" />
+
+    <fragment
+        android:id="@+id/navigation_delegate_shopping"
+        android:name="com.mealmate.app.ui.shopping.DelegateShoppingFragment"
+        android:label="Delegate Shopping" />
+
+</navigation>
